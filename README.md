@@ -23,6 +23,9 @@ Test the C Program for the desired output.
 
 # PROGRAM:
 
+
+## C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -44,8 +47,28 @@ int main() {
     return 0;
 }
 
-## C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
 
+
+
+
+
+
+
+
+
+
+
+
+##OUTPUT
+
+![image](images/image1.png)
+
+
+
+
+
+
+## C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -101,26 +124,6 @@ int main()
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-##OUTPUT
-
-![image](images/image1.png)
-
-
-
-
-
-
-## C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
 
 
 
